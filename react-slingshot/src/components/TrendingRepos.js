@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReposListContainer from '../containers/ReposListContainer'
+import ReposListContainer from '../containers/ReposListContainer';
 
 class TrendingRepos extends Component {
   render() {

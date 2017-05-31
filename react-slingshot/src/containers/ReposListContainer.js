@@ -1,11 +1,5 @@
-import React, { Component } from 'react';
 import { connect } from 'react-redux';
-
-const ReposList = ({repos}) => {
-  return (
-    <h1> {repos.length} </h1>
-  );
-}
+import ReposList from '../components/ReposList';
 
 const mapStateToProps = (state) => {
   return {
