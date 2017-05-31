@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReposListContainer from '../containers/ReposListContainer';
+import SearchButton from '../components/SearchButton';
 
 class TrendingRepos extends Component {
   render() {
@@ -7,6 +8,7 @@ class TrendingRepos extends Component {
       <div className="container">
         <h1>Today's Trending Repos</h1>
         <ReposListContainer />
+        <SearchButton />
       </div>
     );
   }

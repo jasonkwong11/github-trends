@@ -7,9 +7,9 @@ function receiveRepos(json){
   };
 }
 
-export function fetchRepos() {
+export function fetchRepos(language) {
   return dispatch => {
-    return GithubApi.getAllRepos()
+    return GithubApi.getAllRepos(language)
       .then(json => dispatch(receiveRepos(json)));
   };
 }
